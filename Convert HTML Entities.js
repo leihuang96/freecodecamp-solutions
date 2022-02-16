@@ -1,3 +1,5 @@
+/* Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their corresponding HTML entities. */
+
 function convertHTML(str) {
   return String(str)
     .replace(/&/g, '&amp;')
